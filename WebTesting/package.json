@@ -1,0 +1,31 @@
+{
+  "name": "choucairtesting",
+  "version": "1.0.0",
+  "description": "Test automation for web, API and mobile technology",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasortiz1995/ChoucairTesting.git"
+  },
+  "keywords": [
+    "Exito",
+    "restapiexample",
+    "app",
+    "movil"
+  ],
+  "author": "Nicolas Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasortiz1995/ChoucairTesting/issues"
+  },
+  "homepage": "https://github.com/nicolasortiz1995/ChoucairTesting#readme",
+  "dependencies": {
+    "chromedriver": "^115.0.0",
+    "geckodriver": "^4.1.3",
+    "msedgedriver": "^91.0.0",
+    "selenium-webdriver": "^4.10.0"
+  }
+}
