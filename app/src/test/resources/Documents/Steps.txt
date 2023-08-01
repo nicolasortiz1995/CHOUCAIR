@@ -1,3 +1,5 @@
+Web Testing:
+
 Paso 1: Abrir la URL "https://www.exito.com/"
 Paso 2: Click en el elemento "<div id="category-menu" class="pl0 pr0" xpath="1"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style=""><g class=""><g id="Enmascarar_grupo_659" data-name="Enmascarar grupo 659" transform="translate(-376 -230)" clippath="url(#clip-path)">
     <path id="Trazado_7822" data-name="Trazado 7822" d="M29.738,24.492H15.749A1.749,1.749,0,0,1,14,22.743h0a1.749,1.749,0,0,1,1.749-1.749H29.738a1.749,1.749,0,0,1,1.749,1.749h0A1.749,1.749,0,0,1,29.738,24.492Zm1.749-8.743h0A1.749,1.749,0,0,0,29.738,14H15.749A1.749,1.749,0,0,0,14,15.749h0A1.749,1.749,0,0,0,15.749,17.5H29.738A1.749,1.749,0,0,0,31.486,15.749Zm0,13.989h0a1.749,1.749,0,0,0-1.749-1.749H15.749A1.749,1.749,0,0,0,14,29.738h0a1.749,1.749,0,0,0,1.749,1.749H29.738A1.749,1.749,0,0,0,31.486,29.738Z" transform="translate(365 219)"></path>
@@ -35,8 +37,21 @@ Paso 4: Esperar que esté visible el elemento "<div class="exito-category-menu-3
 Paso 5: Encontrar todos los botones dentro del div con el id "gallery-layout-container"
 Paso 6: Hacer clic en el botón "Compra rápida", diligenciar información y extraer datos.
 Paso 7: Hacer clic en el botón "Carrito de compras" y enviar correo.
-Paso 8: Aserciones
+Paso 8: Aserciones.
 
+
+API Testing:
+Paso 1: Realizar consulta de todos los empleados y verificar mensajes de salida.
+Paso 2: Realizar consulta del empleado unico y verificar nombre con mensajes de salida.
+Paso 3: Realizar creación del empleado y verificar la inserción con mensaje de salida.
+Paso 4: Realizar actualización del empleado y verificar cambios con mensajes de salida.
+Paso 5: Realizar eliminación del empleado y verificar mensaje de salida.
+
+App Testing:
+Paso 1: Realizar registro
+Paso 2: Iniciar sesión
+Paso 3: Agregar producto al Carrito
+Paso 4: Aserciones.
 
 
 Commands:

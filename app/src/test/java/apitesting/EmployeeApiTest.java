@@ -61,7 +61,7 @@ public class EmployeeApiTest {
 
 
         if (response.getStatusLine().getStatusCode() == 429) {
-            System.out.println("Aserción actualizar empleado: Too Many Requests");
+            System.out.println("Aserción crear empleado: Too Many Requests");
             Thread.sleep(60000);
         } else {
             assertEquals(200, response.getStatusLine().getStatusCode());
